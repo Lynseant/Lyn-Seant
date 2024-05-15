@@ -1,0 +1,180 @@
+:root {
+    
+--bg1: #8d3627;
+--bg2: #5f5f5f;
+--body: rgb[95, 86. 86];
+--brand:#F2B03B;
+--white: #FFF;
+--p:  rgb[161, 150, 150];
+
+}
+body {
+    background-color: var(--bg1);
+}
+
+#banner{
+    background: url(https://img.freepik.com/free-photo/sunset-time-tropical-beach-sea-with-coconut-palm-tree_74190-1075.jpg?t=st=1714969382~exp=1714972982~hmac=0614bec25514235f24ad8a0ebccaa995bca41495603559b177de2364c21710f1&w=1380);
+    height: 100vh;
+    background-size: cover;
+}
+/* */
+.navbar {
+    background: linear-gradient(to bottom, hsla( 0, 2%, 17%, 0.829), rgba(44, 42, 0.884));
+}
+
+.navbar .nar-link:hover{
+    color: var[--brand]!important;
+}
+
+.navbar .nav-link:hover {
+    color: var[--brand] !important;
+}
+
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand{
+    background-color:var(--brand);
+}
+
+.btn-brand:hover {
+    background-color:transparent;
+    color:var(--bg1);
+    border-color:var(--brand);
+}
+ 
+ .icon-box-img {
+ width: 40%;
+
+ }
+  .btn-outline-brand {
+    background-color: transparent;
+    color: var(--bg1);
+    border-color: var(--bg1);
+  }
+
+  .btn-brand:hover {
+    background-color: var(--bg1);
+    color: var(--body);
+  }
+ 
+  .card {
+    transition:background-color 0.3s, color;
+  }
+  .card:hover{
+    background-color: var(--bg1);
+  }
+
+  .card:hover .card-title,
+  .card:hover .card-text
+  .card:hover .btn{
+    color: #f2b03d; 
+  }
+  #cta {
+     position:relative;
+   opacity: 0.90;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* parallax effect */
+   background-attachment: fixed;
+   /* parallax effect / to remove to effect set to normal*/
+   background-image: url('https://img.freepik.com/free-photo/beautiful-beach-sunrise-blue-sky_181624-26939.jpg?t=st=1710730162~exp=1710733762~hmac=2ead93065bf9c12c4b411a8ba4962d8efe437839581e72f2ece5d371a58de451&w=740');
+min-height: 70vh;
+
+}
+ #services {
+    background-color: rgba(255, 127, 127, 0.61);
+}
+
+#reviews {
+    background-color: rgba(255, 127, 127, 0.356);
+}
+
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+ 
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.faq-section{
+    max-width:800px;
+    margin: auto;
+
+}
+
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius:0;
+
+}
+
+.accordion-buttom{
+    background-color: beige;
+    border: none;
+    border-bottom: 1px solid color(xyz-d65 red green blue);
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(14, 16 110);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0. 3s,
+
+}
+
+accordion-body{
+border-left: 3px solid var(--brand);
+padding: 10px 15 px;
+margin-left: 0;
+background-color: papayawhip;
+}
+.faq-answer p{
+margin-bottom: 0;
+}
+.accordion-button:focus{
+box-shadow: none;
+
+}
+.accordion-button:not(.collapsed){
+color:var(--bg1)
+}
+
+/*Hover effect for FAQ Question*/
+.accordion-button:hover{
+background-color: rgb(41, 8, 13);
+color:var(--bg1)
+
+
+}
+/*Hover effect for FAQ question */
+.faq-question:after{
+font-family: "Font Awesome 5 Free";
+content:"";/*Plus icon*/
+float:right;
+font-weight: 900;
+margin-left:auto
+}
+
+.accordion-button[aria-expanded="true"]::after{
+content:"";
+}
+#review a {
+    color: var(--bg2);
+}
